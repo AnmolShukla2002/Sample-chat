@@ -25,6 +25,7 @@ const Signup = () => {
 
   const handleClick = () => setShow(!show);
 
+  //SUBMIT PICS
   const postDetails = (pics) => {
     setLoading(true);
     if (pics === undefined) {
